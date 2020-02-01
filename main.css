@@ -97,8 +97,7 @@ header #nav-bar {
     width: 130px;
   } 
 
-  ul {
-    padding-top: 1.3rem;
+  #nav-bar ul {
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -111,6 +110,7 @@ header #nav-bar {
     border-top: 2px solid #367356;
     min-width: 80px;
     text-align: center;
+    padding-top: .1rem;;
   }  
 
   ul:last-child {
@@ -209,6 +209,56 @@ form label input::placeholder {
 #co-info a:hover {
   background-color: #68A69B;
 }
+
+/* ===== PRICING ===== */
+
+#pricing {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#pricing div {
+  border: 1px solid #8C2703;
+  border-radius: 4px;
+  padding: .5rem;
+  margin: 1rem;
+  min-width: 240px;
+}
+
+#pricing ul {
+  border: none;
+}
+
+#pricing .heading {
+  background-color: #F27405;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.cost {
+  background-color: #68A69B;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.cost > .btn {
+  background-color: #F27405;
+  border-radius: 4px;
+  border: 1px solid #F2EAD0;
+  color: #F2EAD0;
+  padding: 2px 18px;
+}
+
+.cost > .btn:hover {
+  background-color: #F2EAD0;
+  border: 1px solid #F27405;
+  color: #F27405;
+}
+
 
 
 
