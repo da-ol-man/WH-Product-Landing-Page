@@ -287,8 +287,7 @@ form label input::placeholder {
   font-weight: 400;
 }
 
-
-
+/* ===== LARGE screen MQ ===== */
 
 @media only screen and (min-width: 840px) {
 
