@@ -63,21 +63,6 @@ legend {
   font-weight: 400;
 }
 
-/*
-.container {
-  display: grid;
-  grid-template-columns: 10% 1fr 10%;
-  grid-template-rows: 150px repeat(5, 1fr);
-  grid-template-areas: 
-  ". . ."
-  ". main1 ."
-  ". main2."
-  ". main3 ."
-  ". main4 .";
-  justify-items: stretch;
-}
-*/
-
 header #nav-bar {
   background-color: #F2EAD0;
   position: fixed;
@@ -308,7 +293,6 @@ form label input::placeholder {
   }
 
   .logo img {
-    margin-top: 1.5rem;
     width: 250px;
   }
 
